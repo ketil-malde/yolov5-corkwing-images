@@ -1,0 +1,21 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+path: .
+train: train.txt
+val:   train.txt
+test:  train.txt
+
+# Classes
+#    180 corkwing
+#      1 cuckoo
+#     52 goldsinny
+#      4 pollack
+#      5 rock_cook
+#     12 two_spot_goby
+#     51 unknown
+
+# maybe just 'unknown', id all fish?
+# nc: 5
+# names: ['corkwing', 'goldsinny', 'pollack', 'rock_cook', 'two_spot_goby']
+nc: 1
+names: ['unknown_fish']
